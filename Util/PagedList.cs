@@ -8,6 +8,7 @@ namespace WebAPI.Util
 {
     public class PagedList<T>: List<T>
     {
+
         public int CurrentPage { get; private set; }
         public int TotalPages { get; private set; }
         public int PageSize { get; private set; }
